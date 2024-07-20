@@ -1,10 +1,10 @@
 self.__uv$config = {
-    prefix: '/static/gdg/',
-    bare:'https://uv-bare-vercel.vercel.app/',
+    prefix: '/service/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: '/static/uv/uv.handler.js',
-    bundle: '/static/uv/uv.bundle.js',
-    config: '/static/uv/uv.config.js',
-    sw: '/static/uv/uv.sw.js',
+    handler: '/uv.handler.js',
+    client: '/uv.client.js',
+    bundle: '/uv.bundle.js',
+    config: '/uv.config.js',
+    sw: '/uv.sw.js',
 };
